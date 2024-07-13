@@ -1,22 +1,22 @@
 # #5.1. More on Lists
 # # 1_ex count,index,reverse,append,sort,pop
-# def main():
-#  fruits = ["apple","banana","kiwi","orange","orange","apple","pear"]
-#  number_of_fruits = fruits.count("apple")
-#  print(fruits.index("banana"))
-#  print(number_of_fruits)
-#  fruits.insert(2,"insertinam")
-#  print(fruits)
-#  fruits.reverse()
-#  print(fruits)
-#  fruits.append("kiwi")
-#  print(fruits)
-#  fruits_copy = fruits.copy()
-#  print(fruits_copy)
-#  fruits.sort()
-#  print(fruits)
-#  fruits.pop()
-#  print(fruits)
+def main():
+ fruits = ["apple","banana","kiwi","orange","orange","apple","pear"]
+ number_of_fruits = fruits.count("apple")
+ print(fruits.index("banana"))
+ print(number_of_fruits)
+ fruits.insert(2,"insertinam")
+ print(fruits)
+ fruits.reverse()
+ print(fruits)
+ fruits.append("kiwi")
+ print(fruits)
+ fruits_copy = fruits.copy()
+ print(fruits_copy)
+ fruits.sort()
+ print(fruits)
+ fruits.pop()
+ print(fruits)
 
 # 5.1.1. Using Lists as Stacks
 # 2_ex 
@@ -143,5 +143,5 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
 
 ### NESTED LIST COMPREHENSION
-# if __name__ == "__main__":
-#  main()
+if __name__ == "__main__":
+ main()
