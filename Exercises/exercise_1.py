@@ -54,9 +54,9 @@ def main():
 # print(numbers)
 
 # even_numbers = [num for num in range(10)]
-# print(even_numbers)
+# print(even_numbers) 
 
-"""
+""" EXERCISE
 Based on a list of fruits, you want a new list, containing only the fruits with the letter "a" in the name.
 
 Without list comprehension you will have to write a for statement with a conditional test inside:
