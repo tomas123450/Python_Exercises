@@ -1,4 +1,25 @@
 
+# list = []
+# tuple = () tiesiog greitesnis uz list ir unchangable
+# set = {} negali kartotis elementai, uordered
+# dict = {key:value} pairs ordered and changable no duplicates alowed
+# enumerate ismokt, zip, open
+
+def printlabas():
+ """
+ prints labas
+ """
+ print("labas")
+
+help(printlabas)
+### DICT COMPREHENSION
+# names = ["John","Tom","Bob"]
+# surnames = ["Smith","Fenuci","Benuci"]
+# print(list(zip(names,surnames)))
+# name_surname = {name:surname for name,surname in zip(names,surnames)}
+# print(name_surname)
+
+
 #5.1.2. Using Lists as Queues
 # 3_ex
 # from collections import deque
@@ -40,44 +61,14 @@
 # print(my_dict)
 
 
-## SET COMPREHENSION
-# Removing duplicates from a list while applying a function
-nums = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
-unique_squares = {x**2 for x in nums}
-print(unique_squares)
-
-
-
-#
-# vec = [-4, -2, 0, 2, 4]
-# # create a new list with the values doubled
-# new_list = [x**2 for x in vec]
-
-# # filter the list to exclude negative numbers
-# new_list_2 = [x for x in new_list if x>= 0]
-
-# # apply a function to all the elements
-# new_list_3 = [abs(x) for x in vec]
-# # call a method on each element
-# freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
-# cleaned_list = [x.strip() for x in freshfruit]
-
-# # create a list of 2-tuples like (number, square)
-# new_list_4 = [(x, x**2) for x in range(1,6)]
-
-# # flatten a list using a listcomp with two 'for'
-# vec = [[1,2,3], [4,5,6], [7,8,9]]
-# flatten = [num for row in vec for num in row]
-# print(flatten)
-
-
+# ## SET COMPREHENSION
+# # Removing duplicates from a list while applying a function
+# nums = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+# unique_squares = {x**2 for x in nums}
+# print(unique_squares)
 
 # ## GOOD PRACTICE
 # number: int = '10'
-
-# def upper_everything(elements: list[str]) -> list[str]:
-#  return [element.upper() for element in elements]
-
 
 
 ### NESTED LIST COMPREHENSION
