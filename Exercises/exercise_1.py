@@ -5,6 +5,9 @@
 # dict = {key:value} pairs ordered and changable no duplicates alowed
 # enumerate ismokt, zip, open
 
+# is patikrina ar vienodi objektai
+# in patikrina ar pvz "5" yra ["1","2","5"] grazintu true
+
 def printlabas():
  """
  prints labas

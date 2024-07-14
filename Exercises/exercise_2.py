@@ -1,6 +1,8 @@
-def printHello() -> None:
- print("Hello world!")
+### STRINGS
+z = """
+multi line comment
+this is
+"""
 
-
-if __name__ == "__main__":
- printHello()
+print("is" in z)
+print(z)
