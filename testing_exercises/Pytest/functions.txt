@@ -1,0 +1,5 @@
+pytest -m sanity / pytest -m <markeris>
+
+@pytest.fixture
+
+pytest -s 
