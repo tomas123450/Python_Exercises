@@ -1,4 +1,3 @@
-
 # list = []
 # tuple = () tiesiog greitesnis uz list ir unchangable
 # set = {} negali kartotis elementai, uordered
@@ -8,13 +7,14 @@
 # is patikrina ar vienodi objektai
 # in patikrina ar pvz "5" yra ["1","2","5"] grazintu true
 
-def printlabas():
- """
- prints labas
- """
- print("labas")
 
-help(printlabas)
+def printlabas():
+    """
+    prints labas
+    """
+    print("labas")
+
+
 ### DICT COMPREHENSION
 # names = ["John","Tom","Bob"]
 # surnames = ["Smith","Fenuci","Benuci"]
@@ -23,7 +23,7 @@ help(printlabas)
 # print(name_surname)
 
 
-#5.1.2. Using Lists as Queues
+# 5.1.2. Using Lists as Queues
 # 3_ex
 # from collections import deque
 # queue = deque(["Eric", "John", "Michael"])
