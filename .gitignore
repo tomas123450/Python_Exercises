@@ -1,3 +1,4 @@
 planas.txt
 .vscode
 .pytest_cache
+testing_exercises/__pycache__/
