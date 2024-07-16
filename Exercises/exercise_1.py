@@ -77,3 +77,9 @@ def printlabas():
 ### NESTED LIST COMPREHENSION
 # if __name__ == "__main__":
 #  main()
+my_tuple = (1, 2, 3)
+print(my_tuple[1])
+my_tuple = (1, 2, 3, 4)
+my_string = "labas"
+print(my_string.upper())
+print(my_string)
